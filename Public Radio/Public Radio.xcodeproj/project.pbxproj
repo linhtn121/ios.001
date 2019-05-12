@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD61F79A20D3EF03002C0148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61F79920D3EF03002C0148 /* AppDelegate.m */; };
+		BD61F79D20D3EF03002C0148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61F79C20D3EF03002C0148 /* ViewController.m */; };
+		BD61F7A020D3EF03002C0148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD61F79E20D3EF03002C0148 /* Main.storyboard */; };
+		BD61F7A220D3EF07002C0148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61F7A120D3EF07002C0148 /* Assets.xcassets */; };
+		BD61F7A520D3EF07002C0148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD61F7A320D3EF07002C0148 /* LaunchScreen.storyboard */; };
+		BD61F7A820D3EF07002C0148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61F7A720D3EF07002C0148 /* main.m */; };
+		BD61F7B220D3EF07002C0148 /* Public_RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61F7B120D3EF07002C0148 /* Public_RadioTests.m */; };
+		BD61F7BD20D3EF07002C0148 /* Public_RadioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61F7BC20D3EF07002C0148 /* Public_RadioUITests.m */; };
+		BDF80A4F22621A70002857D2 /* 1.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = BDF80A4E22621A70002857D2 /* 1.m3u8 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD61F7AE20D3EF07002C0148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD61F78D20D3EF03002C0148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD61F79420D3EF03002C0148;
+			remoteInfo = "Public Radio";
+		};
+		BD61F7B920D3EF07002C0148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD61F78D20D3EF03002C0148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD61F79420D3EF03002C0148;
+			remoteInfo = "Public Radio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD61F79520D3EF03002C0148 /* Public Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Public Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61F79820D3EF03002C0148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD61F79920D3EF03002C0148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD61F79B20D3EF03002C0148 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD61F79C20D3EF03002C0148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD61F79F20D3EF03002C0148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD61F7A120D3EF07002C0148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD61F7A420D3EF07002C0148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD61F7A620D3EF07002C0148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61F7A720D3EF07002C0148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD61F7AD20D3EF07002C0148 /* Public RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Public RadioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61F7B120D3EF07002C0148 /* Public_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Public_RadioTests.m; sourceTree = "<group>"; };
+		BD61F7B320D3EF07002C0148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61F7B820D3EF07002C0148 /* Public RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Public RadioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61F7BC20D3EF07002C0148 /* Public_RadioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Public_RadioUITests.m; sourceTree = "<group>"; };
+		BD61F7BE20D3EF07002C0148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF80A4E22621A70002857D2 /* 1.m3u8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1.m3u8; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD61F79220D3EF03002C0148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61F7AA20D3EF07002C0148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61F7B520D3EF07002C0148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD61F78C20D3EF03002C0148 = {
+			isa = PBXGroup;
+			children = (
+				BDF80A4E22621A70002857D2 /* 1.m3u8 */,
+				BD61F79720D3EF03002C0148 /* Public Radio */,
+				BD61F7B020D3EF07002C0148 /* Public RadioTests */,
+				BD61F7BB20D3EF07002C0148 /* Public RadioUITests */,
+				BD61F79620D3EF03002C0148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD61F79620D3EF03002C0148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD61F79520D3EF03002C0148 /* Public Radio.app */,
+				BD61F7AD20D3EF07002C0148 /* Public RadioTests.xctest */,
+				BD61F7B820D3EF07002C0148 /* Public RadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD61F79720D3EF03002C0148 /* Public Radio */ = {
+			isa = PBXGroup;
+			children = (
+				BD61F79820D3EF03002C0148 /* AppDelegate.h */,
+				BD61F79920D3EF03002C0148 /* AppDelegate.m */,
+				BD61F79B20D3EF03002C0148 /* ViewController.h */,
+				BD61F79C20D3EF03002C0148 /* ViewController.m */,
+				BD61F79E20D3EF03002C0148 /* Main.storyboard */,
+				BD61F7A120D3EF07002C0148 /* Assets.xcassets */,
+				BD61F7A320D3EF07002C0148 /* LaunchScreen.storyboard */,
+				BD61F7A620D3EF07002C0148 /* Info.plist */,
+				BD61F7A720D3EF07002C0148 /* main.m */,
+			);
+			path = "Public Radio";
+			sourceTree = "<group>";
+		};
+		BD61F7B020D3EF07002C0148 /* Public RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD61F7B120D3EF07002C0148 /* Public_RadioTests.m */,
+				BD61F7B320D3EF07002C0148 /* Info.plist */,
+			);
+			path = "Public RadioTests";
+			sourceTree = "<group>";
+		};
+		BD61F7BB20D3EF07002C0148 /* Public RadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD61F7BC20D3EF07002C0148 /* Public_RadioUITests.m */,
+				BD61F7BE20D3EF07002C0148 /* Info.plist */,
+			);
+			path = "Public RadioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD61F79420D3EF03002C0148 /* Public Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61F7C120D3EF07002C0148 /* Build configuration list for PBXNativeTarget "Public Radio" */;
+			buildPhases = (
+				BD61F79120D3EF03002C0148 /* Sources */,
+				BD61F79220D3EF03002C0148 /* Frameworks */,
+				BD61F79320D3EF03002C0148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Public Radio";
+			productName = "Public Radio";
+			productReference = BD61F79520D3EF03002C0148 /* Public Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD61F7AC20D3EF07002C0148 /* Public RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61F7C420D3EF07002C0148 /* Build configuration list for PBXNativeTarget "Public RadioTests" */;
+			buildPhases = (
+				BD61F7A920D3EF07002C0148 /* Sources */,
+				BD61F7AA20D3EF07002C0148 /* Frameworks */,
+				BD61F7AB20D3EF07002C0148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD61F7AF20D3EF07002C0148 /* PBXTargetDependency */,
+			);
+			name = "Public RadioTests";
+			productName = "Public RadioTests";
+			productReference = BD61F7AD20D3EF07002C0148 /* Public RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD61F7B720D3EF07002C0148 /* Public RadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61F7C720D3EF07002C0148 /* Build configuration list for PBXNativeTarget "Public RadioUITests" */;
+			buildPhases = (
+				BD61F7B420D3EF07002C0148 /* Sources */,
+				BD61F7B520D3EF07002C0148 /* Frameworks */,
+				BD61F7B620D3EF07002C0148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD61F7BA20D3EF07002C0148 /* PBXTargetDependency */,
+			);
+			name = "Public RadioUITests";
+			productName = "Public RadioUITests";
+			productReference = BD61F7B820D3EF07002C0148 /* Public RadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD61F78D20D3EF03002C0148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tran Ngoc Linh";
+				TargetAttributes = {
+					BD61F79420D3EF03002C0148 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BD61F7AC20D3EF07002C0148 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BD61F79420D3EF03002C0148;
+					};
+					BD61F7B720D3EF07002C0148 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BD61F79420D3EF03002C0148;
+					};
+				};
+			};
+			buildConfigurationList = BD61F79020D3EF03002C0148 /* Build configuration list for PBXProject "Public Radio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD61F78C20D3EF03002C0148;
+			productRefGroup = BD61F79620D3EF03002C0148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD61F79420D3EF03002C0148 /* Public Radio */,
+				BD61F7AC20D3EF07002C0148 /* Public RadioTests */,
+				BD61F7B720D3EF07002C0148 /* Public RadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD61F79320D3EF03002C0148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61F7A520D3EF07002C0148 /* LaunchScreen.storyboard in Resources */,
+				BD61F7A220D3EF07002C0148 /* Assets.xcassets in Resources */,
+				BDF80A4F22621A70002857D2 /* 1.m3u8 in Resources */,
+				BD61F7A020D3EF03002C0148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61F7AB20D3EF07002C0148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61F7B620D3EF07002C0148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD61F79120D3EF03002C0148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61F79D20D3EF03002C0148 /* ViewController.m in Sources */,
+				BD61F7A820D3EF07002C0148 /* main.m in Sources */,
+				BD61F79A20D3EF03002C0148 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61F7A920D3EF07002C0148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61F7B220D3EF07002C0148 /* Public_RadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD61F7B420D3EF07002C0148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61F7BD20D3EF07002C0148 /* Public_RadioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD61F7AF20D3EF07002C0148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD61F79420D3EF03002C0148 /* Public Radio */;
+			targetProxy = BD61F7AE20D3EF07002C0148 /* PBXContainerItemProxy */;
+		};
+		BD61F7BA20D3EF07002C0148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD61F79420D3EF03002C0148 /* Public Radio */;
+			targetProxy = BD61F7B920D3EF07002C0148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD61F79E20D3EF03002C0148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD61F79F20D3EF03002C0148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD61F7A320D3EF07002C0148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD61F7A420D3EF07002C0148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD61F7BF20D3EF07002C0148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD61F7C020D3EF07002C0148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD61F7C220D3EF07002C0148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P392MA6D98;
+				INFOPLIST_FILE = "Public Radio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "public.radio.Public-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD61F7C320D3EF07002C0148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P392MA6D98;
+				INFOPLIST_FILE = "Public Radio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "public.radio.Public-Radio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD61F7C520D3EF07002C0148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Public RadioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "public.radio.Public-RadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Public Radio.app/Public Radio";
+			};
+			name = Debug;
+		};
+		BD61F7C620D3EF07002C0148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Public RadioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "public.radio.Public-RadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Public Radio.app/Public Radio";
+			};
+			name = Release;
+		};
+		BD61F7C820D3EF07002C0148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Public RadioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "public.radio.Public-RadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Public Radio";
+			};
+			name = Debug;
+		};
+		BD61F7C920D3EF07002C0148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Public RadioUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "public.radio.Public-RadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Public Radio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD61F79020D3EF03002C0148 /* Build configuration list for PBXProject "Public Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61F7BF20D3EF07002C0148 /* Debug */,
+				BD61F7C020D3EF07002C0148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD61F7C120D3EF07002C0148 /* Build configuration list for PBXNativeTarget "Public Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61F7C220D3EF07002C0148 /* Debug */,
+				BD61F7C320D3EF07002C0148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD61F7C420D3EF07002C0148 /* Build configuration list for PBXNativeTarget "Public RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61F7C520D3EF07002C0148 /* Debug */,
+				BD61F7C620D3EF07002C0148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD61F7C720D3EF07002C0148 /* Build configuration list for PBXNativeTarget "Public RadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61F7C820D3EF07002C0148 /* Debug */,
+				BD61F7C920D3EF07002C0148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD61F78D20D3EF03002C0148 /* Project object */;
+}
